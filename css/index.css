@@ -1,0 +1,60 @@
+html{font-size: 100px; width: 100%;}
+body{width: 100%;}
+.hd{height: 1.12rem; background-color: #252525;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hd-log{width: 2.1rem; height: 0.62rem; margin: .23rem 0 .27rem .16rem;}
+.hd-log img{width: 100%; height: 100%;} 
+.hd-list{margin-right: .23rem;}
+
+.swiper-container {
+    width: 100%;
+    height: 3.43rem;
+}  
+.swiper-slide img{ width: 100%; }
+.swiper-container{
+    --swiper-theme-color: #fff;
+}
+    .content-box{width: 100%; height: 1rem;   display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+    }
+.content-box .title{font-size: .26rem;}
+.book{margin-top: .05rem;}
+.content-item{width: 100% ; height: 4.52rem; padding: 0 .18rem .36rem .2rem; box-sizing: border-box;}
+.image-item{height: 2.8rem; text-align: center;}
+.image-item img{ width: 3.85rem; margin: .33rem 0 ;}
+
+.content-item .title{font-size: .28rem; width: 100%; text-align: center; margin-top: .33rem
+    ;color: #000;}
+.price-item{font-size: .28rem; color: #ED3A3A; width: 100%; text-align: center; margin-top: .22rem
+;}
+.trianle{position: absolute;left: 0; top: 0; z-index: 99;
+    border-width: .85rem .76rem 0 0;
+    border-style: solid solid solid solid;
+    border-color: #ED5C5B transparent transparent transparent;}
+    .image-box{position: relative;}
+.trianle-other{position: absolute;right: 0; bottom: 0; z-index:99;
+    border-width:  0 0 .82rem .75rem;
+    border-style: solid solid solid solid;
+    border-color: transparent transparent transparent #ED5C5B;transform: rotate(180deg);}
+    .image-item{border-radius: 5px; }
+  .price-item{box-shadow:0 .05rem .06rem 0 rgba(178,178,178,0.75); border-radius: 5px;}
+  .ft-wrap{width: 100%; display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: #D5D5D5 .01rem solid;
+    margin-top: .76rem;
+    padding-top: .22rem; padding-bottom: .22rem;
+ }
+  .ft-item{width: 33.33%; text-align: center; }
+  .ft-item .title{font-size: .16rem; color: #000;}
+  

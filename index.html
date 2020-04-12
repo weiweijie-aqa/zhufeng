@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>珠峰培训</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+    
+
+</head>
+<body>
+<header class="hd">
+    <figure class="hd-log">
+        <img src="images/Layer.png">
+    </figure>
+
+    <nav class="hd-list">
+        <a href="" class="list-log iconfont "></a>
+        <section class="hd-list-content"></section>
+    </nav>
+</header>
+<!-- 轮播图 -->
+<section class="swiper">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner2.png" ></div>
+            <div class="swiper-slide"><img src="images/banner1.png" ></div>
+            <div class="swiper-slide"><img src="images/banner3.png" ></div>
+            <div class="swiper-slide"><img src="images/banner4.png" ></div>
+            
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+       
+          loop: true, // 循环模式选项
+          autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+    },pagination: {
+    el: '.swiper-pagination',
+  }
+})        
+        </script>
+
+
+
+
+    
+</section>  
+<!-- 课程 -->
+<section class="content"> 
+    <section class="content-box">
+        <section class="book iconfont"></section>
+        <h2 class="title"> 全部课程</h2>
+    </section>
+
+
+
+
+    <section class="content-item" >
+        <section class="image-item" style="background-color: #3FAA7D;">
+            <a href=""><img src="images/Layer 19.png"></a>
+        </section>
+        <a href=""><h3 class="title">Vue.js从理论精讲到项目实战课程</h3></a>
+        <p class="price-item">￥599.00元</p>
+    </section>
+    <section class="content-item" >
+        <section class="image-item" style="background-color: #A0CF57;">
+            <a href=""><img src="images/Layer 21.png"></a>
+        </section>
+        <a href=""><h3 class="title">Vue.js从理论精讲到项目实战课程</h3></a>
+        <p class="price-item">￥5000.00元</p>
+    </section>
+    <section class="content-item" >
+        <section class="image-item" style="background-color: #29B9A8;">
+            <a href=""><img src="images/Layer 24.png"></a>
+        </section>
+        <a href=""><h3 class="title">Vue.js从理论精讲到项目实战课程</h3></a>
+        <p class="price-item">￥5000.00元</p>
+    </section>
+    <section class="content-item" >
+        <section class="image-item image-box" style="background-color: #FBD560;">
+            <section class="trianle"></section>
+
+            <a href=""><img src="images/Layer 28.png"></a>
+            <section class="trianle-other"></section>
+
+        </section>
+        <a href=""><h3 class="title">Vue.js从理论精讲到项目实战课程</h3></a>
+        <p class="price-item">￥5000.00元</p>
+    </section>
+    <section class="content-item" >
+        <section class="image-item" style="background-color: #EF5B5B;">
+            <a href=""><img src="images/Layer 30.png"></a>
+        </section>
+        <a href=""><h3 class="title">Vue.js从理论精讲到项目实战课程</h3></a>
+        <p class="price-item">￥5000.00元</p>
+    </section>
+    <section class="content-item" >
+        <section class="image-item" style="background-color: #6186BC;">
+            <a href=""><img src="images/Layer 32.png"></a>
+        </section>
+        <a href=""><h3 class="title">Vue.js从理论精讲到项目实战课程</h3></a>
+        <p class="price-item">￥5000.00元</p>
+    </section>
+    
+    
+<footer class="ft-wrap">
+<section class="ft-item"><a href="">
+    <section class="homepage iconfont "></section>
+    <h2 class="title">首页</h2>
+</a>
+</section>
+<section class="ft-item">
+    <a href="">
+    <section class=" iconclass iconfont "></section>
+    <h2 class="title">我的课程</h2></a>
+</section>
+
+<section class="ft-item ">
+    <a href="">
+    <section class=" iconfont  iconuser"></section>
+    <h2 class="title">个人中心</h2>
+</a>
+</section>
+    </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    function refreshRem() {
+    var desW = 750,
+    winW = document.documentElement.clientWidth,
+    ratio = winW / desW;
+    document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+ </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
